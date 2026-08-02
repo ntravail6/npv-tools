@@ -506,7 +506,7 @@ function addCustomItem() {
         overseas: [
             { label: "■ 東アジア", options: [{val:"korea",txt:"韓国 🇰🇷"}, {val:"taiwan",txt:"台湾 🇹🇼"}, {val:"hongkong",txt:"香港 🇭🇰"}, {val:"china",txt:"中国 🇨🇳"}]},
             { label: "■ 東南アジア", options: [{val:"thailand",txt:"タイ 🇹🇭"}, {val:"vietnam",txt:"ベトナム 🇻🇳"}, {val:"philippines",txt:"フィリピン 🇵🇭"}, {val:"singapore",txt:"シンガポール 🇸🇬"}, {val:"malaysia",txt:"マレーシア 🇲🇾"}, {val:"indonesia",txt:"インドネシア(バリ) 🇮🇩"}]},
-            { label: "■ 北米・オセアニア", options: [{val:"usa",txt:"アメリカ・ハワイ 🇺🇸"}, {val:"guam",txt:"グアム 🇬🇺"}, {val:"australia",txt:"オーストラリア 🇦🇺"}, {val:"nz",txt:"ニュージーランド 🇳🇿"}]},
+            { label: "■ 北米・オセアニア", options: [{val:"usa",txt:"アメリカ・ハワイ 🇺🇸"}, {val:"guam",txt:"グアム 🇬🇺"}, {val:"palau",txt:"パラオ 🇵🇼"}, {val:"australia",txt:"オーストラリア 🇦🇺"}, {val:"nz",txt:"ニュージーランド 🇳🇿"}]},
             { label: "■ ヨーロッパ", options: [{val:"france",txt:"フランス 🇫🇷"}, {val:"italy",txt:"イタリア 🇮🇹"}, {val:"uk",txt:"イギリス 🇬🇧"}, {val:"spain",txt:"スペイン 🇪🇸"}, {val:"portugal",txt:"ポルトガル 🇵🇹"}, {val:"germany",txt:"ドイツ 🇩🇪"}, {val:"swiss",txt:"スイス 🇨🇭"}]},
             { label: "■ 中東", options: [{val:"uae",txt:"UAE (ドバイ) 🇦🇪"}]},
             { label: "その他", options: [{val:"other",txt:"その他・世界 🌍"}]}
@@ -609,6 +609,14 @@ function addCustomItem() {
     suggestedScenes:["beach"],
     items:[{t:"1ドル札を20枚〜",m:"💡チップ用に必須📝"},{t:"マリンシューズ",m:"💡サンゴや岩場で足を保護するため📝"}],
     memo:"海を楽しむならシューズは必須。"
+  },
+  palau:{
+    currency:"USドル", tip:"基本不要",visa: "不要(30日以内)※帰国便航空券＋入国フォーム(QR)必須",
+    tempByMonth:[27,27,28,28,28,28,27,27,27,27,28,28],
+    ngItems:[{t:"サンゴに有害な日焼け止め",m:"🚨リーフセーフ以外は持込・使用禁止"},{t:"電子タバコ",m:"🚨所持・使用は法律で禁止"},{t:"1万ドル超の現金(未申告)",m:"申告義務あり"}],
+    suggestedScenes:["beach","outdoor"],
+    items:[{t:"リーフセーフ日焼け止め",m:"💡有害成分入りは規制対象のため📝"},{t:"マリンシューズ",m:"💡サンゴや岩場で足を保護するため📝"},{t:"ラッシュガード",m:"💡強い日差しとサンゴ擦れ対策に📝"}],
+    memo:"環境規制が厳しく、日焼け止めは成分要確認です。"
   },
   france:{
     currency:"ユーロ", tip:"原則不要(謝礼程度)",visa: "不要",
